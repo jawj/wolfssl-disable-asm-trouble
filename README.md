@@ -6,6 +6,8 @@ I find that it works fine when WolfSSL is compiled **without** the `--disable-as
 
 But when it's compiled **with** `--disable-asm`, either on my Mac or with emscripten, I get -188 errors (ASN sig error, no CA signer to verify certificate) on the same sites.
 
+This repo provides reproduction steps for [WolfSSL issue #5659](https://github.com/wolfSSL/wolfssl/issues/5659).
+
 
 ## Steps to reproduce
 
