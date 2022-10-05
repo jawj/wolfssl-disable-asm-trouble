@@ -2,9 +2,9 @@ This is a simple test program to retrieve files over TLS 1.2/1.3 and HTTP/1.0. I
 
 It's based on the WolfSSL [example file implementing a TLS client with I/O callbacks](https://github.com/wolfSSL/wolfssl-examples/blob/master/tls/client-tls-callback.c).
 
-I find that it works fine when WolfSSL is compiled without the `--disable-asm` switch (on my Intel MacBook Pro 13" 2020, Monterey 12.6, Apple clang version 14.0.0 (clang-1400.0.29.102)).
+I find that it works fine when WolfSSL is compiled **without** the `--disable-asm` switch (on my Intel MacBook Pro 13" 2020, Monterey 12.6, Apple clang version 14.0.0 (clang-1400.0.29.102)).
 
-But when it's compiled with `--disable-asm`, either on my Mac or with emscripten, I get -188 errors (ASN sig error, no CA signer to verify certificate) on the same sites.
+But when it's compiled **with** `--disable-asm`, either on my Mac or with emscripten, I get -188 errors (ASN sig error, no CA signer to verify certificate) on the same sites.
 
 
 ## Steps to reproduce
