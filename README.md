@@ -9,7 +9,7 @@ But when it's compiled **with** `--disable-asm`, either on my Mac or with emscri
 
 ## Steps to reproduce
 
-On a Mac with homebrew, download WolfSSL from GitHub releases, untar, and compile without `--disable-asm`:
+On a Mac with homebrew, [download WolfSSL from GitHub releases](https://github.com/wolfSSL/wolfssl/releases/tag/v5.5.1-stable), untar, and compile without `--disable-asm`:
 
 ```
 brew install autoconf automake libtool
